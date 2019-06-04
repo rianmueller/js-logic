@@ -219,8 +219,15 @@ dirty30(10, 10, 10);
  * Console.log your result.
 */ 
 
-
-
+function evenStevens(num){
+  if(num % 2 == 0){
+    console.log(true);
+  }else{
+    console.log(false);
+  }
+}
+evenStevens(2);
+evenStevens(1);
 
 /*
  * #11
