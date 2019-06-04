@@ -128,6 +128,15 @@ bigBird('foo');
  * Console.log your result.
 */
 
+function isEqual(first, second){
+  if(first == second){
+    console.log('You look mahvelous!');
+  }else{
+    console.log('I don\'t know who you are anymore.')
+  }
+}
+isEqual('foo', 'foo');
+isEqual('foo', 'bar');
 
 /*
  * #7
