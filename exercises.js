@@ -173,7 +173,15 @@ notEqual('foo', 'bar');
  * Console.log your result.
 */ 
 
-
+function spareChange(money){
+  if(money > 100){
+    console.log(true);
+  }else{
+    console.log(false);
+  }
+}
+spareChange(101);
+spareChange(100);
 
 /*
  * #9
