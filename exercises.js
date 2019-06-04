@@ -340,7 +340,30 @@ console.log(doughnutBought);
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
 
-
+function dailySpecials(special){
+  switch(special){
+    case 'Monday':
+      console.log('Ham on rye')
+      break;
+    case 'Tuesday':
+      console.log('BLT')
+      break;
+    case 'Wednesday':
+      console.log('Tuna')
+      break;
+    case 'Thursday':
+      console.log('Club')
+      break;
+    case 'Friday':
+      console.log('Pastrami')
+  }
+}
+console.log('dailySpecials');
+dailySpecials('Monday');
+dailySpecials('Tuesday');
+dailySpecials('Wednesday');
+dailySpecials('Thursday');
+dailySpecials('Friday');
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
