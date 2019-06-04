@@ -422,7 +422,17 @@ for(i = 0; i < myFavFoods.length; i++){
  * Console.log your result.
 */
 
+var numArray = [23, 17, 47, 5, 100000000];
+var total = 0;
 
+function sumItUp(arr){
+  for(i = 0; i < arr.length; i++){
+    total = total + arr[i];
+  }
+  console.log(total);
+}
+console.log('sumItUp');
+sumItUp(numArray);
 
 /*
  * #18
