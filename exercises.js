@@ -151,6 +151,15 @@ isEqual('foo', 'bar');
  * Console.log your result.
 */
 
+function notEqual(first, second){
+  if(first != second){
+    console.log('Opposites do attract.');
+  }else{
+    console.log('Cause it\'s like you\'re my mirror.');
+  }
+}
+notEqual('foo', 'foo');
+notEqual('foo', 'bar');
 
 /*
  * #8
