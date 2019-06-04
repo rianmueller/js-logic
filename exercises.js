@@ -89,7 +89,12 @@ isGreaterThan(2, 1);
  * Console.log your result.
 */
 
-
+function mustBeTrue(boo){
+  if(boo == true){
+    console.log(true);
+  }
+}
+mustBeTrue(true);
 
 /*
  * #5
