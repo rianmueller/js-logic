@@ -37,9 +37,6 @@ function canVote(age){
   }
 }
 canVote(18);
-// console.log('17: ' + canvote(17));
-// console.log('18: ' + canVote(18));
-// console.log('19: ' + canVote(19));
 
 /*
  * #2
@@ -53,6 +50,12 @@ canVote(18);
  * Console.log your result.
 */
 
+function login(password){
+  if(password == 'test1234'){
+    console.log('Login Success!')
+  }
+}
+login('test1234');
 
 /*
  * #3
